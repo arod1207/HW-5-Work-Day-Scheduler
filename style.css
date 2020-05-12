@@ -1,3 +1,7 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -63,10 +67,9 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
     color: white;
+    display: flex;
+    justify-content: center;
   }
-  *, *::before, *::after{
-    box-sizing: border-box;
-}
 
   .saveBtn i:hover {
     font-size: 20px;
@@ -78,15 +81,7 @@ body {
       color: blue;
   }
 
-  .times {
-      border: 2px solid red;
-      padding: 15px;
-      
+  .userInput {
+    background: grey;
+    width: 75%;
   }
-
-  .events {
-      border: 2px solid green;
-      padding: 15px;
-      margin-left: 30px;
-  }
-  
