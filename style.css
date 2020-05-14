@@ -27,6 +27,7 @@ body {
   
   .description{
     white-space: pre-wrap;
+    width: 75%
   }
   
   .time-block{
@@ -81,7 +82,8 @@ body {
       color: blue;
   }
 
-  .userInput {
-    background: grey;
-    width: 75%;
+  .inputBox {
+    outline: none;
   }
+ 
+
