@@ -14,6 +14,7 @@ var timeFormat = 'HH:mm:ss';
 
 // Button ONE //
 $('.saveBtn1').click(function(){
+    $(this).css('color', 'red');
     var timeSlot1 = $('#input1').val();
     localStorage.setItem('input1', timeSlot1);  
 })
@@ -34,6 +35,7 @@ else if (now.isAfter(moment('10:00:00', timeFormat))) {
 
 // Button TWO //
 $('.saveBtn2').click(function(){
+    $(this).css('color', 'red');
     var timeSlot2 = $('#input2').val();
     localStorage.setItem('input2', timeSlot2);
     
@@ -53,6 +55,7 @@ else if (now.isAfter(moment('11:00:00', timeFormat))) {
 }
 // BUTTON THREE
 $('.saveBtn3').click(function(){
+    $(this).css('color', 'red');
     var timeSlot3 = $('#input3').val();
     localStorage.setItem('input3', timeSlot3);
     
@@ -73,6 +76,7 @@ else if (now.isAfter(moment('12:00:00', timeFormat))) {
 
 // Button FOUR //
 $('.saveBtn4').click(function(){
+    $(this).css('color', 'red');
     var timeSlot4 = $('#input4').val();
     localStorage.setItem('input4', timeSlot4);
     
@@ -93,6 +97,7 @@ else if (now.isAfter(moment('13:00:00', timeFormat))) {
 
 // Button FIVE //
 $('.saveBtn5').click(function(){
+    $(this).css('color', 'red');
     var timeSlot5 = $('#input5').val();
     localStorage.setItem('input5', timeSlot5);
     
@@ -113,6 +118,7 @@ else if (now.isAfter(moment('14:00:00', timeFormat))) {
 
 // Button SIX //
 $('.saveBtn6').click(function(){
+    $(this).css('color', 'red');
     var timeSlot6 = $('#input6').val();
     localStorage.setItem('input6', timeSlot6);
     
@@ -133,6 +139,7 @@ else if (now.isAfter(moment('15:00:00', timeFormat))) {
 
 // Button SEVEN
 $('.saveBtn7').click(function(){
+    $(this).css('color', 'red');
     var timeSlot7 = $('#input7').val();
     localStorage.setItem('input7', timeSlot7);
     
@@ -153,6 +160,7 @@ else if (now.isAfter(moment('16:00:00', timeFormat))) {
 
 // Button EIGHT //
 $('.saveBtn8').click(function(){
+    $(this).css('color', 'red');
     var timeSlot8 = $('#input8').val();
     localStorage.setItem('input8', timeSlot8);
     
@@ -173,6 +181,7 @@ else if (now.isAfter(moment('17:00:00', timeFormat))) {
 
 // Button NINE //
 $('.saveBtn9').click(function(){
+    $(this).css('color', 'red');
     var timeSlot9 = $('#input9').val();
     localStorage.setItem('input9', timeSlot9);
 
