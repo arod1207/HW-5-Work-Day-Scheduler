@@ -41,11 +41,11 @@ body {
     border-top: 1px solid white;;
   }
   
-  .hour {
+  /* .hour {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
-  }
+  } */
   
   .past {
     background-color: #d3d3d3;
@@ -79,11 +79,22 @@ body {
 
   #currentDay {
       font-size: 2rem;
-      color: blue;
+      color: black;
   }
 
-  .inputBox {
+  input[type="text"], textarea {
+
+    background-color : transparent;
+    width: 100%;
+    border: none;
     outline: none;
+  
+  }
+
+  #clearBtn {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: red;
   }
  
-
