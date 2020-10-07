@@ -9,4 +9,4 @@
 * If the event is past the current time, the event will be highlighted grey.
 
 * Work Day Schedular
-  * https://arod1207.github.io/HW-5-Work-Day-Scheduler/
+  * https://arod1207.github.io/Work-Day-Scheduler/
